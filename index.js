@@ -18,23 +18,10 @@ section.style.backgroundColor = "tomato"
 for(const card of cards){
     card.style.borderRadius="30px"
 }
-for(const btn of btns){
-   btn.addEventListener("click",function(){
-    this.style.display="none"
-   })
-}
-/* let imgSrc = ""
-for(const img of imgTags){
-    img.addEventListener("mouseenter",function(){
-        this.src="images/banner-images/headphone.png"
-        this.style.height = this.height + `px`
-        imgSrc= this.src
-        
-    })
-    img.addEventListener("mouseleave",function(e){
-        //this.src = imgSrc[0]
 
+
+for (const btn of btns) {
+    btn.addEventListener("click",function(){
+        counts.innerHTML ++
     })
 }
-
-console.log(imgSrc) */
